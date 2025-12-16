@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <math.h>
 
 int main()
@@ -12,7 +11,7 @@ int main()
     scanf("%d %d", &x2, &y2);
 
     //sqrt and pow are mathematical functions defined in math.h header file 
-    distance = sqrt(pow((x2-x1), 2) + pow((y2-y1), 2);
+    distance = sqrt(pow((x2-x1), 2) + pow((y2-y1), 2));
     printf("\n Distance = %f", distance);
     return 0;
 }
